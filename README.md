@@ -16,6 +16,7 @@
 This project comes with two versions which are known as
 1. Tester version
 2. User version
+
 Tester version is used for assessing the quality of this project through the system or any automated grading system. Whereas user version comes with a web site application with front end, so that user can use this web application.
 
 **You can access any version with the below given links :**
@@ -23,3 +24,5 @@ Tester Version : <version link>
 User version : <version link>
 
 I used hugging face Spaces as a deployment platform with docker image.
+
+# STEP BY STEP GUIDE ON HOW TO USE TESTER VERSION
