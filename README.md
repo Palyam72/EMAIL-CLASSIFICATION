@@ -38,6 +38,33 @@ I used hugging face Spaces as a deployment platform with docker image.
 10. ![image](https://github.com/user-attachments/assets/eace53af-7b32-4c92-aac0-d45031374802)
 11. You can give email_body in **any language** but you have to give it as a string datatype which may be single line or multi line string.
 12. The output for the above email_body is shown below
-13. ![image](https://github.com/user-attachments/assets/e12cc381-c23e-4b9a-8a2d-cf62850592f2)
+13. ![image](https://github.com/user-attachments/assets/66491795-6cb7-423b-80e5-ab36e2db7c5a)
+14. As You can see the out put is obtained but it is the dictionery form. So to visualize the out put in a pretiest way and to use the application with front end, you can use User Version.
+
+# STEP BY STEP GUIDE ON HOW TO USE USER VERSION
+1. go to the website : https://huggingface.co/spaces/Rohith25Jan/email-classification-with-ui
+2. you will see the user interface like shown in the below figure
+3. ![image](https://github.com/user-attachments/assets/16cc43e2-4a36-4260-9d81-98335dba9af0)
+4. You can see one drop down, one text area and one submit button.
+5. So, you can classify the emails in two approaches. one is using self trained ML model trained by me and you can download those models in Models Directory through the link files given. Another approach is using a populer open source llm called 'laama 3.3-70b-versatile' through Groq cloud.
+6. If you want to classify emails using LLM, then you need an API key which is absolutely free to call model. You can get that API from Groq Cloud which is one the fastest AI Inference.
+7. So, let's classify the email using self trained ML Model.
+8. I passed email in the teaxt area specified, and then clicked submit. so output is obtained, which is shown in below figure.
+9. I given the email content in sanskrit language then we got the classification which is shown in the below image
+10. ![image](https://github.com/user-attachments/assets/f981ed66-893b-4885-8f66-239801e79263)
+11. This time given content in telugu got the result, shown in the below image
+12. ![image](https://github.com/user-attachments/assets/e79e1bf9-84fe-4ab6-b686-bb8ca36873d1)
+13. This time given content in hindi, got output , shown in the below image
+14. ![image](https://github.com/user-attachments/assets/34fe5d06-bac1-4eac-bb29-179c3bb44dfa)
+15. This time given content in japanese, got output, which is shown in the below image
+16. ![image](https://github.com/user-attachments/assets/87b69458-e206-4436-be86-d205ed85e150)
+17. You can give any language, at backend language translation to english will be done for implenting robust email classification
+
+# STEP BY STEP EXPLANATION ON IMPLEMENTATION FOR THIS PROJECT
+
+
+
+
+
 
 
