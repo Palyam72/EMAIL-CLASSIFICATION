@@ -1,0 +1,2 @@
+Tester Version Link : https://huggingface.co/spaces/Rohith25Jan/email-classification
+User Version Link : https://huggingface.co/spaces/Rohith25Jan/email-classification-with-ui 
