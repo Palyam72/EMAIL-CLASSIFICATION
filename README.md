@@ -61,10 +61,24 @@ I used hugging face Spaces as a deployment platform with docker image.
 17. You can give any language, at backend language translation to english will be done for implenting robust email classification
 
 # STEP BY STEP EXPLANATION ON IMPLEMENTATION FOR THIS PROJECT
+1. Doenloaded the data that isprovided through google drive link in pdf.
+2. Readed the data set using pandas pd.read_csv()
+3. Eamined the readed data like dataframes shape, size, columns, dtypes etc
+4. Dropped duplicated rows and missing missing values
+5. Detected the languages of content present in email using langdetect module in python
+6. Translated all non english subject content into english subject content using deep-translator
+7. After, coverting the email content inro english i perofrmed PII masking using persidio librery
+8. After performing masking, i implemnetd the basic NLP text processing techniques, which is mentioned below
+9. Lower casing, Removing HTML Code, Removing Punctuations, Removing Stop words, Encoding Emoji's, Chart word treatment, Tokenization, Stemming & Lemmatization
+10. After that performed some Exploratory data analysis on transofrmed data, implemented value_counts for type column vislaized thorugh bar chart for checking whether it is a balanced data or not, after that implemneted word cloud charts for each category in type column to see which words are dominating in that category.
+11. After performing EDA, implemnted TFIDF vectorizer, and implemented more than 20+ classifications algorithms and downloaded vectorizer object and ML Model in pickel format.
+12. Also I implemented CountVectorizer, then implemnted again 20+ classification algorithms, evaluated ml models performance through metrics like accuracy nd classification report.
+13. After careful examination downloaded TFIDF Vectorizer object, Random Forest Classifier Object in .pkl formats.
+14. Used FastAPI for POST requests, Rendering templates. Integrated downloaded models in the application.
+15. After successfull Testing in Local Environment, Used Hugging Face Spaces And Docker to deploy this project in two variants called Tester Varient & User Varient.
 
-
-
-
-
-
-
+# STEP BY STEP EXPLANATION ON 'HOW WE GET OUTPUT WHEN WE GIVEN EMAIL AS INPUT'
+1. used FastAPI, created end point at classify_emai which takes request object that contains email_body in json formate.
+2. Fetched email_body content, passed email_body to a function called classify_email(email_body), where that function is present in api.py or in some other file.
+3. After that, classify_email() calls some other functions which performs PII Masking, Cleaning, Classifying etc.
+4. The output is given with successful code 200 if success else some other code like 500 etc.
