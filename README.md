@@ -10,3 +10,5 @@
 6. **Python Files** : Contains api.py, app.py, models.py, utils.py files as described in the pdf. But those files are present in two directories which are present inside the Python Files directory. Both these directories conteins the above mentioned .py files. You can assume these two directories are like two versions for the current project.
 7. **requirements.txt** : contains the list of python packages and libraries used for this purpose.
 8. **deploymentLinks.txt** : contains links, which redirects you to the deployed and ready to use web site for this project called **Email Classification System For Support Team**
+
+# STEP BY STEP GUIDE ON HOW TO USE THIS PROJECT
