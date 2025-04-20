@@ -33,4 +33,11 @@ I used hugging face Spaces as a deployment platform with docker image.
 5. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classifier For Testing ---> tester.py
 6. After downloading the tester.py, open it using any code editor or IDLE. I used vs code. You can see the image for refernce
 7. ![image](https://github.com/user-attachments/assets/6597d0e5-6d16-4ebb-83b8-f2cdafb317ff)
+8. So, You can keep the code as it is, i will explain the code in short. The code uses request model and it sends a POST request to the **Tester version** website, which is made using FastAPI. So, all the processing will be done using the .py files present in **Python Files Directory/Email Classifier For Testing**. Returns a json object. which will be fetched using request.response. If successfull you will get 200 server response.
+9. If you want to send your email_body, just change the value for the key calld 'email_body' in test_email dictionery. Refer the below image.
+10. ![image](https://github.com/user-attachments/assets/eace53af-7b32-4c92-aac0-d45031374802)
+11. You can give email_body in **any language** but you have to give it as a string datatype which may be single line or multi line string.
+12. The output for the above email_body is shown below
+13. ![image](https://github.com/user-attachments/assets/e12cc381-c23e-4b9a-8a2d-cf62850592f2)
+
 
