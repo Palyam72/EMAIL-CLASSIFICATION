@@ -2,7 +2,7 @@
 ![image](https://github.com/user-attachments/assets/550d2104-f3b4-42ca-8d25-30a763b04b18)
 # STEP BY STEP DETAILED GUIDE
 ### HOW THIS REPOSITORY IS STRUCTURED
-1. This Repository contains 5 folders, one .txt file and two nested directories.
+1. This Repository contains 6 folders, one .txt file and two nested directories.
 2. Which are : Colab Note Books, Datasets, Documents, Models & Python Files.
 3. **Colab Note Books** : Contians .ipynb, .py, pdf version of .ipynb files which displays the code used to train the ML Model for email classification from scartch.
 4. **Data sets** : Contains Datasets that includes dataset provided in pdf, datasets that are saved during the process of training models.
@@ -10,6 +10,7 @@
 6. **Python Files** : Contains api.py, app.py, models.py, utils.py files as described in the pdf. But those files are present in two directories which are present inside the Python Files directory. Both these directories conteins the above mentioned .py files. You can assume these two directories are like two versions for the current project.
 7. **requirements.txt** : contains the list of python packages and libraries used for this purpose.
 8. **deploymentLinks.txt** : contains links, which redirects you to the deployed and ready to use web site for this project called **Email Classification System For Support Team**
+9. **Resume & Other DOcs** : contains reume and one text file that contains the links for my social media accounts.
 
 # STEP BY STEP GUIDE ON HOW TO USE THIS PROJECT
 ![image](https://github.com/user-attachments/assets/a7c9ce4b-4da0-4d5f-87a9-14280984347a)
