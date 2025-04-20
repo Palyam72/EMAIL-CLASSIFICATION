@@ -28,19 +28,20 @@ I used hugging face Spaces as a deployment platform with docker image.
 
 # STEP BY STEP GUIDE ON HOW TO USE TESTER VERSION
 1. Note : Use this link (https://huggingface.co/spaces/Rohith25Jan/email-classification) to go the tester version.
-2. Actually, tester version is made for assessing the quality of project and validating output structure mantioned in the pdf.
-3. So, when you redirected to the web site, you may not see any thing except one blank web page which is in Running State.
-4. So, you no need to visit the website if you want to test this project.
-5. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classifier For Testing ---> tester.py
-6. After downloading the tester.py, open it using any code editor or IDLE. I used vs code. You can see the image for refernce
-7. ![image](https://github.com/user-attachments/assets/6597d0e5-6d16-4ebb-83b8-f2cdafb317ff)
-8. So, You can keep the code as it is, i will explain the code in short. The code uses request model and it sends a POST request to the **Tester version** website, which is made using FastAPI. So, all the processing will be done using the .py files present in **Python Files Directory/Email Classifier For Testing**. Returns a json object. which will be fetched using request.response. If successfull you will get 200 server response.
-9. If you want to send your email_body, just change the value for the key calld 'email_body' in test_email dictionery. Refer the below image.
-10. ![image](https://github.com/user-attachments/assets/eace53af-7b32-4c92-aac0-d45031374802)
-11. You can give email_body in **any language** but you have to give it as a string datatype which may be single line or multi line string.
-12. The output for the above email_body is shown below
-13. ![image](https://github.com/user-attachments/assets/66491795-6cb7-423b-80e5-ab36e2db7c5a)
-14. As You can see the out put is obtained but it is the dictionery form. So to visualize the out put in a pretiest way and to use the application with front end, you can use User Version.
+2. ![image](https://github.com/user-attachments/assets/ee944a16-fec3-4b23-9492-ccaea613fc90)
+3. Actually, tester version is made for assessing the quality of project and validating output structure mantioned in the pdf.
+4. So, when you redirected to the web site, you may not see any thing except one blank web page which is in Running State.
+5. So, you no need to visit the website if you want to test this project.
+6. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classifier For Testing ---> tester.py
+7. After downloading the tester.py, open it using any code editor or IDLE. I used vs code. You can see the image for refernce
+8. ![image](https://github.com/user-attachments/assets/6597d0e5-6d16-4ebb-83b8-f2cdafb317ff)
+9. So, You can keep the code as it is, i will explain the code in short. The code uses request model and it sends a POST request to the **Tester version** website, which is made using FastAPI. So, all the processing will be done using the .py files present in **Python Files Directory/Email Classifier For Testing**. Returns a json object. which will be fetched using request.response. If successfull you will get 200 server response.
+10. If you want to send your email_body, just change the value for the key calld 'email_body' in test_email dictionery. Refer the below image.
+11. ![image](https://github.com/user-attachments/assets/eace53af-7b32-4c92-aac0-d45031374802)
+12. You can give email_body in **any language** but you have to give it as a string datatype which may be single line or multi line string.
+13. The output for the above email_body is shown below
+14. ![image](https://github.com/user-attachments/assets/66491795-6cb7-423b-80e5-ab36e2db7c5a)
+15. As You can see the out put is obtained but it is the dictionery form. So to visualize the out put in a pretiest way and to use the application with front end, you can use User Version.
 
 # STEP BY STEP GUIDE ON HOW TO USE USER VERSION
 1. go to the website : https://huggingface.co/spaces/Rohith25Jan/email-classification-with-ui
