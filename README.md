@@ -30,4 +30,7 @@ I used hugging face Spaces as a deployment platform with docker image.
 2. Actually, tester version is made for assessing the quality of project and validating output structure mantioned in the pdf.
 3. So, when you redirected to the web site, you may not see any thing except one blank web page which is in Running State.
 4. So, you no need to visit the website if you want to test this project.
-5. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classification Without UI ---> tester.py
+5. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classifier For Testing ---> tester.py
+6. After downloading the tester.py, open it using any code editor or IDLE. I used vs code. You can see the image for refernce
+7. ![image](https://github.com/user-attachments/assets/6597d0e5-6d16-4ebb-83b8-f2cdafb317ff)
+
