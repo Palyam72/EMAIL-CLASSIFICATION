@@ -12,14 +12,7 @@
 8. **deploymentLinks.txt** : contains links, which redirects you to the deployed and ready to use web site for this project called **Email Classification System For Support Team**
 
 # STEP BY STEP GUIDE ON HOW TO USE THIS PROJECT
-Project Version Structure
-Tester Version
-Project
-Quality assessment through automated systems
-Core project with different versions
-User Version
-Web application for user interaction![image](https://github.com/user-attachments/assets/a7c9ce4b-4da0-4d5f-87a9-14280984347a)
-
+![image](https://github.com/user-attachments/assets/a7c9ce4b-4da0-4d5f-87a9-14280984347a)
 This project comes with two versions which are known as
 1. Tester version
 2. User version
