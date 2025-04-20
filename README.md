@@ -26,3 +26,8 @@ User version : <version link>
 I used hugging face Spaces as a deployment platform with docker image.
 
 # STEP BY STEP GUIDE ON HOW TO USE TESTER VERSION
+1. Note : Use this link (https://huggingface.co/spaces/Rohith25Jan/email-classification) to go the tester version.
+2. Actually, tester version is made for assessing the quality of project and validating output structure mantioned in the pdf.
+3. So, when you redirected to the web site, you may not see any thing except one blank web page which is in Running State.
+4. So, you no need to visit the website if you want to test this project.
+5. But, to test the project you need to download the tester.py file present in Python Files Directory ---> Email Classification Without UI ---> tester.py
